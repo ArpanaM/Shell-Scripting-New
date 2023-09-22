@@ -2,8 +2,7 @@
 echo hello
 echo hello World
 a=100
-b=apple
-c=true
+
 echo a = $a
 echo a in currency = ${a}USD
 
@@ -15,3 +14,5 @@ echo Good Morning, Welcome, todays date is ${DATE}
 ADD=$((2+3))
 echo ADD = ${ADD}
 
+echo user = ${USER}
+echo A = ${A}

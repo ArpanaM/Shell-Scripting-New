@@ -1,5 +1,5 @@
 read -p 'Enter your age:' age
-if [ -z "$age" ]; then
+if [ -z "${age}" ]; then
   echo Input Missing
   fi
 if [ "${age}" -lt 18 ]; then

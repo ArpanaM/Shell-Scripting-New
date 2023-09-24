@@ -4,3 +4,4 @@ if [ "${age}" -lt 18 ]; then
    else
      echo you are Major
      fi
+
